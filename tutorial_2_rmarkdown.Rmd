@@ -1,0 +1,16 @@
+---
+title: "Analysis of the titanic disaster"
+author: "My name here"
+output: html_document
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+source("tutorial_2.R")
+```
+
+## Who was on board? 
+
+There were `r total_passengers` on board the titanic, with `r female_passengers` female passengers. 
+
+## Where did it land?
